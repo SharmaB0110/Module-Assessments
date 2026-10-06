@@ -1,0 +1,13 @@
+def calculate_average(items):
+    # Get the sum of the list
+    total = sum(items)
+
+    # Divide it by the list length
+    average = total / len(items)
+
+    return average
+
+
+# Example
+numbers = [2, 4, 6, 8]
+print("Average:", calculate_average(numbers))  # 5.0
