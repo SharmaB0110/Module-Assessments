@@ -70,11 +70,11 @@ class BankAccount(object):
 
 
 # Create multiple accounts and apply transactions
-account1 = BankAccount("Alex", "chequing")
+account1 = BankAccount("Mack", "chequing")
 account1.deposit(250)
 account1.withdraw(40)
 
-account2 = BankAccount("Jordan", "savings", 500)
+account2 = BankAccount("Bobby", "savings", 500)
 account2.deposit(100)
 account2.withdraw(75)
 
@@ -86,3 +86,4 @@ for account in (account1, account2):
     print(f"Balance: ${account.getBalance():.2f}")
     print("Transaction history:")
     print(account.getTransactionHistory())
+
